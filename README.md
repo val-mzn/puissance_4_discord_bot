@@ -1,11 +1,16 @@
 # Puissance 4 BOT python
 Fait par Valentino Manzon, projet Bot discord en python EPSI B2
+### Commandes
+* !p4 (Lance une parti de puissance 4)
+* !p4 bot/b (Lance une parti de puissance 4 avec un ordinateur)
+* !p4 surrender/s (permet d'adandonner la partie en cours)
+* !p4 jeton/j <emoji> (permet de customizer son jeton)
 
 ### Connection du bot en local
 Etape pour faire tourner le bot sur son pc
 * cloner le git
-* modifier dans le .env le token 
-* installer les library python
+* modifier le token dans le .env
+* installer les library python [discord==1.7.3, python-dotenv==0.19.1,requests==2.26.0]
 * executer main.py
 
 ### Ajouter le bot
