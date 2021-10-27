@@ -118,6 +118,8 @@ async def p4(ctx: commands.Context, *args):
             game.win = winner_id
             msg = await ctx.fetch_message(current_game)
             await msg.edit(content=game.getGrid())
+            del games[current_game]
+            
         elif(args[0] == "jeton" or args[0] == "j"):
             if(len(args) != 1 and isEmoji(args[1])):
                 customPiece(ctx.message.author.name, args[1])         
